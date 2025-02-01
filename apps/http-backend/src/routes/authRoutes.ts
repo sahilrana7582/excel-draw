@@ -1,5 +1,5 @@
 import {Router} from "express"
-import { signUp } from "../controllers/authController";
+import { signIn, signUp } from "../controllers/authController";
 
 
 const authRouter: Router = Router();
@@ -7,6 +7,8 @@ const authRouter: Router = Router();
 
 
 authRouter.route("/signup").post(signUp)
+authRouter.route("/signin").post(signIn)
+
 
 
 
