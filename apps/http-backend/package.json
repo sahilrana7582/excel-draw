@@ -9,11 +9,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "@repo/db": "workspace:*",
+    "@repo/schemas": "workspace:*",
     "@repo/typescript-config": "workspace:*",
     "@types/express": "^5.0.0",
+    "@types/jsonwebtoken": "^9.0.8",
     "express": "^4.21.2",
-    "@repo/schemas" : "workspace:*",
-    "@repo/db" : "workspace:*"
+    "jsonwebtoken": "^9.0.2"
   },
   "keywords": [],
   "author": "",
